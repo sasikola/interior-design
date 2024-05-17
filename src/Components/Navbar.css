@@ -158,3 +158,12 @@ body {
     font-size: 20px;
     /* Adjust the size as needed */
 }
+/* Define a custom class for the toggle button */
+.navbar-toggle-custom {
+    background-color: #ffffff; /* Set a background color to make it visible */
+    border: 1px solid #ccc; /* Optional: Add a border to make it more distinct */
+    padding: 5px 10px; /* Adjust padding for better visibility */
+    border-radius: 4px; /* Optional: Add border radius for rounded corners */
+    color: #000; /* Change text color if needed */
+  }
+  

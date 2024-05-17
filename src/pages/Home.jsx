@@ -110,12 +110,12 @@ function Main() {
 
   const handleClose = () => setShow(false);
   useEffect(() => {
-    setShow(true);
+    setShow(false);
   }, []);
   return (
     <>
       <Homecarousel />
-      <div id="downloadBrochure" className="container-fluid p-5">
+      <div id="downloadBrochure" className="container-fluid pt-2 ">
         <div className="d-flex ">
           <h2>About Us</h2>
         </div>
@@ -220,13 +220,13 @@ function Main() {
           </div>
         </div>
       </div>
-      <div className="container-fluid p-5">
+      <div className="container-fluid pt-2">
         <div className=" w-100">
           <CountdownRow />
         </div>
       </div>
       {/* WHY CHOOSE DMAGICA */}
-      <div className="container-fluid p-5">
+      <div className="container-fluid pt-2">
         <div className="d-flex justify-content-center align-items-center py-6">
           <h2>WHY INFINITY STORE</h2>
         </div>
@@ -280,7 +280,7 @@ function Main() {
         </div>
       </div>
 
-      <div className="container-fluid p-5">
+      <div className="container-fluid pt-2">
         <div className="d-flex justify-content-center align-items-center ">
           <h2>OUR SIGNATURE</h2>
         </div>
@@ -308,7 +308,7 @@ function Main() {
             <button
               className="btn btn-primary px-md-4 py-md-2 px-3 py-1"
               type="button"
-              style={{ backgroundColor: "#000000 ", color:"black" }}
+              style={{ backgroundColor: "#000000 ", color:"white" }}
             >
               View More
             </button>
@@ -317,7 +317,7 @@ function Main() {
             <button
               className="btn btn-primary px-md-4 py-md-2 px-3 py-1"
               type="button"
-              style={{ backgroundColor: "#000000 ", color:"black" }}
+              style={{ backgroundColor: "#000000 ", color:"white" }}
             >
               Download Brochure
             </button>
@@ -326,7 +326,7 @@ function Main() {
       </div>
 
       {/* design PROCESS */}
-      <div className="container-fluid p-5" style={{marginTop:"-30px"}}>
+      <div className="container-fluid pt-2" >
         <div className="d-flex justify-content-center align-items-center">
           <h2>Interior Design Process</h2>
         </div>
@@ -348,7 +348,7 @@ function Main() {
         </div>
       </div>
       {/* WHAT YOU GET */}
-      <div className="container-fluid p-5">
+      <div className="container-fluid pt-2">
         <h2 className="d-flex justify-content-center align-items-center py-4">
           WHAT WE DO
         </h2>
@@ -393,7 +393,7 @@ function Main() {
       </div>
       <Testimonials />
       {/* OUR COLLABORATIONS */}
-      <div className="container-fluid p-5">
+      <div className="container-fluid pt-2">
         <div className="d-flex justify-content-center align-items-center py-4">
           <h2>OUR COLLABORATIONS</h2>
         </div>

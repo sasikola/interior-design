@@ -174,16 +174,17 @@ function Header() {
         
         variant="dark"
         sticky="top"
-        className="text-white  custom-dropdown"
+        className="text-white custom-dropdown"
         ref={navRef}
       >
-        <Container fluid>
+        <Container >
           <Navbar.Brand href="/" className="p-0">
             <img src="/logo.png" alt="Logo" width="100%" height="80px" />
           </Navbar.Brand>
           <Navbar.Toggle
             aria-controls="navbarCollapse"
-            className="text-black text-end"
+            className="text-white text-end "
+
           />
           <Navbar.Collapse
             id="navbarCollapse"
