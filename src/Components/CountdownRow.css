@@ -1,0 +1,5 @@
+.countdown{
+    display: flex;
+    background-color: rgb(221, 250, 214);
+    font-size: 30px;
+}

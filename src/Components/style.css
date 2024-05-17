@@ -1,0 +1,121 @@
+/* For screens smaller than 576px (extra small devices) */
+
+@media (max-width: 575.98px) {
+  /* Adjust the layout for smaller devices here */
+  /* For example, you can modify the button sizes or margins */
+  .btn {
+    padding: 8px 16px;
+    /* Adjust padding for smaller buttons */
+    margin-bottom: 10px;
+    /* Adjust margin for button spacing */
+  }
+  /* Additional adjustments for other elements can be added here */
+}
+
+/* For screens between 576px and 767.98px (small devices) */
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* Adjustments for small devices can go here */
+}
+
+/* For screens between 768px and 991.98px (medium devices) */
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* Adjustments for medium-sized devices can go here */
+}
+
+/* For screens between 992px and 1199.98px (large devices) */
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* Adjustments for large devices can go here */
+}
+
+/* For screens larger than or equal to 1200px (extra large devices) */
+
+@media (min-width: 1200px) {
+  /* Adjustments for extra large devices can go here */
+}
+
+@media (max-width: 767.98px) {
+  .col-lg-3 {
+    flex: 0 0 50%;
+    /* Display two columns in one row for smaller screens */
+    max-width: 50%;
+    /* Set maximum width for each column */
+  }
+}
+
+@media (max-width: 767.98px) {
+  .col-lg-4 {
+    flex: 0 0 100%;
+    /* Set columns to occupy full width on smaller screens */
+    max-width: 100%;
+    /* Set maximum width to 100% */
+  }
+  .btn {
+    width: 100%;
+    /* Make the button full width on smaller screens */
+    margin-top: 20px;
+    /* Add spacing between button and content */
+  }
+}
+
+/* Ourprojects.css */
+
+/* Responsive styles for smaller devices */
+
+@media (max-width: 768px) {
+  .video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    /* Maintain 16:9 aspect ratio for videos */
+    height: 0;
+    overflow: hidden;
+  }
+  .video-container video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+/* Your global CSS file or create a new one */
+
+.card {
+  height: 100%;
+}
+
+.card-img-top {
+  object-fit: cover;
+  height: 200px;
+  width: 200px;
+  /* Set a fixed height for the images */
+}
+
+/* Media query for smaller screens */
+
+@media (max-width: 768px) {
+  .card {
+    width: 300px;
+    height: 300px;
+  }
+  .card-img-top {
+    height: 250px;
+    width: 250px;
+  }
+}
+
+.countdown{
+  font-size: 150%;
+  display: flex;
+  padding-left: 100px;
+  /* align-items: center; */
+  justify-content: center;
+}
+
+.cd{
+  background-color: rgb(231, 232, 236);
+  border-radius: 10px;
+}
